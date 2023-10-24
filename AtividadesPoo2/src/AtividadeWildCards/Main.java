@@ -19,10 +19,11 @@ public class Main {
 		coringah.retornaElementosPares(lista);
 		
 		//Upper Bounded Wildcards
-		
-		
+		UpperWildCards coringah2 = new UpperWildCards();
+		coringah2.retornaElementos(lista);
 		//Lower Bounded Wildcards
-		
+		LowerWildcards coringah3 = new LowerWildcards();
+		coringah3.retornaElementosPares(lista);
 	}
 
 }
